@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hls.js/0.7.9/hls.min.js"></script>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <title>Games</title>
+</head>
+<body>
+    <div class="Magic-Box" style="height: 50px;width: 125px; right: 10%;top: 100px; border-radius: 20%;"onclick="MAINPAGE()" onmousedown="MAGICBUTTONPRESSED()"onmouseup="MAGICBUTTONRELEASED()">main page</div>
+    <video id="video" class = "VideoPlayer" controls></video>
+    
+    <form id="userForm">
+        <label for="userInput">Enter some text:</label>
+        <input type="text" id="userInput" name="userInput">
+        <button type="button" onclick="animeSearch()">Submit</button>
+    </form>
+    <script src="GameJava.js"></script>
+    </body>
+</html>
